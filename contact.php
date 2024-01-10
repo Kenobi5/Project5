@@ -13,21 +13,21 @@
 }
 
 .icon {
-    width: 20px; /* Adjust the width of the icons */
+    width: 20px; 
     height: auto;
-    margin-right: 10px; /* Adjust the space between the icon and text */
+    margin-right: 10px; 
 }
 
 .contact-support-box {
     display: flex;
-    flex-wrap: wrap; /* Allow flex items to wrap to the next line */
-    justify-content: space-between; /* Distribute items evenly */
+    flex-wrap: wrap; 
+    justify-content: space-between; 
 }
 
 .contact-form-container,
 .map-container {
-    width: 48%; /* Adjust the width of the containers */
-    box-sizing: border-box; /* Include padding and border in the width calculation */
+    width: 48%; 
+    box-sizing: border-box; 
     margin-bottom: 20px;
 }
 
@@ -49,7 +49,7 @@
 
 .contact-form-container input,
 .contact-form-container textarea {
-    width: calc(100% - 20px); /* Make the contact form container 100% width with padding adjustment */
+    width: calc(100% - 20px); 
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
